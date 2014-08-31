@@ -1,4 +1,4 @@
-# restore-cursor [![Build Status](https://travis-ci.org/sindresorhus/restore-cursor.svg?branch=master)](https://travis-ci.org/sindresorhus/restore-cursor)
+# restore-cursor
 
 > Gracefully restore the CLI cursor on exit
 
