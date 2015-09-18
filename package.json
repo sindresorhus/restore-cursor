@@ -38,6 +38,7 @@
     "command-line"
   ],
   "dependencies": {
-    "exit-hook": "^1.0.0"
+    "exit-hook": "^1.0.0",
+    "onetime": "^1.0.0"
   }
 }
