@@ -2,7 +2,7 @@
 
 > Gracefully restore the CLI cursor on exit
 
-Prevent the cursor you've hidden interactively to remain hidden if the process crashes.
+Prevent the cursor you've hidden interactively from remaining hidden if the process crashes.
 
 
 ## Install
