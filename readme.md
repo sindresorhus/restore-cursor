@@ -7,7 +7,7 @@ Prevent the cursor you've hidden interactively from remaining hidden if the proc
 
 ## Install
 
-```sh
+```
 $ npm install --save restore-cursor
 ```
 
@@ -15,11 +15,11 @@ $ npm install --save restore-cursor
 ## Usage
 
 ```js
-var restoreCursor = require('restore-cursor');
+const restoreCursor = require('restore-cursor');
 restoreCursor();
 ```
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
