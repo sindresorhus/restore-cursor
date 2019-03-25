@@ -38,7 +38,7 @@
     "command-line"
   ],
   "dependencies": {
-    "onetime": "^2.0.0",
+    "onetime": ">= 2.0.0",
     "signal-exit": "^3.0.2"
   }
 }
