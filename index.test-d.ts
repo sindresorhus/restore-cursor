@@ -1,0 +1,3 @@
+import restoreCursor = require('.');
+
+restoreCursor();
