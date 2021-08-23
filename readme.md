@@ -4,22 +4,19 @@
 
 Prevent the cursor you've hidden interactively from remaining hidden if the process crashes.
 
-
 ## Install
 
 ```
 $ npm install restore-cursor
 ```
 
-
 ## Usage
 
 ```js
-const restoreCursor = require('restore-cursor');
+import restoreCursor from 'restore-cursor';
 
 restoreCursor();
 ```
-
 
 ---
 

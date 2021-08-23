@@ -1,3 +1,3 @@
-import restoreCursor = require('.');
+import restoreCursor from './index.js';
 
 restoreCursor();
