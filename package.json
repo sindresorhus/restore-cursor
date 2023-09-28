@@ -13,10 +13,10 @@
 	"type": "module",
 	"exports": "./index.js",
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=18"
 	},
 	"scripts": {
-		"test": "xo && tsd && node --test index.test.mjs"
+		"test": "xo && tsd && node --test"
 	},
 	"files": [
 		"index.js",
@@ -45,11 +45,11 @@
 		"command-line"
 	],
 	"dependencies": {
-		"onetime": "^5.1.0",
-		"signal-exit": "^3.0.2"
+		"onetime": "^6.0.0",
+		"signal-exit": "^4.1.0"
 	},
 	"devDependencies": {
-		"tsd": "^0.7.2",
-		"xo": "^0.24.0"
+		"tsd": "^0.29.0",
+		"xo": "^0.56.0"
 	}
 }
