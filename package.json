@@ -12,6 +12,8 @@
 	},
 	"type": "module",
 	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"sideEffects": false,
 	"engines": {
 		"node": ">=18"
 	},
@@ -45,11 +47,11 @@
 		"command-line"
 	],
 	"dependencies": {
-		"onetime": "^6.0.0",
+		"onetime": "^7.0.0",
 		"signal-exit": "^4.1.0"
 	},
 	"devDependencies": {
-		"tsd": "^0.29.0",
-		"xo": "^0.56.0"
+		"tsd": "^0.31.1",
+		"xo": "^0.59.2"
 	}
 }

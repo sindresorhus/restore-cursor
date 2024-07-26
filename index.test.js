@@ -1,5 +1,5 @@
 import process from 'node:process';
-import {test} from 'node:test';
+import {test} from 'node:test'; // eslint-disable-line n/no-unsupported-features/node-builtins
 import assert from 'node:assert';
 import {spawnSync} from 'node:child_process';
 import os from 'node:os';
